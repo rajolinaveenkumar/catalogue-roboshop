@@ -30,7 +30,7 @@ spec:
         ports:
         - containerPort: 8080
         envFrom:
-        - configMap:
+        - configMapRef:
             name: catalogue-configmap
 
 
